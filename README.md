@@ -1,5 +1,4 @@
-# Predicting Driver Stress Using Deep Learning
-
+# Biosignal Processing and Analysis Course Project
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
   * [Convert the dataset](#convert-the-dataset)
