@@ -5,7 +5,7 @@
   * [Get basic plots and info](#get-basic-plots-and-info)
   * [Preprocessing](#preprocessing)
   * [Feature Selection](#feature-selection)
-  * [Algorithms](#algorithms)
+  * [Models](#models)
 
 ## About the project
 This project is a part of Biosignal Processing and analysis Course Project and aims to predict driver stress levels using Physionet's [SRAD](https://physionet.org/content/drivedb/1.0.0/) (drivedb) dataset with methods such as LSTMs, RNNs and CNNs.
@@ -27,7 +27,7 @@ The initial dataset does not contain the marker data. To attach the marker data 
 The dataset consists of 7 columns, namely: *ECG, EMG, hGSR, fGSR, HR, RESP*. To create a set of 22 features, `d_feature_selection.py` can be run which will create the following columns: **EMG_mean, footGSR_mean, footGSR_std, footGSR_frequency, footGSR_magnitude, footGSR_duration, footGSR_area, handGSR_mean,handGSR_std, handGSR_frequency,	handGSR_magnitude, handGSR_duration, handGSR_area, HR_mean,	HR_std, HRV_ratio, RESP_mean, RESP_std, RESP_ulf, RESP_vlf, RESP_lf, RESP_hf, Stress.**\
 Moreover, the data can be segmented into different intervals. The default value is 10 seconds.
 
-### Algorithms
+### Models
 Lastly, this project aims to predict stress levels using various reduction techniques with the aid of deep learning models such as LSTMs, CNN and RNNs. These techniques can be accessed in the `e_models.py` file.
 
 
